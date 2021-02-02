@@ -1,0 +1,15 @@
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\rm-api.Application.deps.json
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\rm-api.Application.dll
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\ref\rm-api.Application.dll
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\rm-api.Application.pdb
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\rm-api.Domain.dll
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\bin\Debug\net5.0\rm-api.Domain.pdb
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.csprojAssemblyReference.cache
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.AssemblyInfoInputs.cache
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.AssemblyInfo.cs
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.csproj.CoreCompileInputs.cache
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.csproj.CopyComplete
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.dll
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\ref\rm-api.Application.dll
+C:\Users\esales\Desktop\Almox\rm-api\rm-api.Application\obj\Debug\net5.0\rm-api.Application.pdb

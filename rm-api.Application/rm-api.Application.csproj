@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>rm_api.Application</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SpecFlow" Version="3.6.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\rm-api.Domain\rm-api.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

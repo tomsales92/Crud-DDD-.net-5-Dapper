@@ -1,0 +1,339 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api\\rm-api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\rm-api.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\rm-api.Application.csproj",
+        "projectName": "rm-api.Application",
+        "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\rm-api.Application.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "SpecFlow": {
+              "target": "Package",
+              "version": "[3.6.23, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\rm-api.DependencyInjection.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\rm-api.DependencyInjection.csproj",
+        "projectName": "rm-api.DependencyInjection",
+        "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\rm-api.DependencyInjection.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\rm-api.Application.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Application\\rm-api.Application.csproj"
+              },
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj"
+              },
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\rm-api.Infra.Repositories.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\rm-api.Infra.Repositories.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj",
+        "projectName": "rm-api.Domain",
+        "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\rm-api.Infra.Repositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\rm-api.Infra.Repositories.csproj",
+        "projectName": "rm-api.Infra.Repositories",
+        "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\rm-api.Infra.Repositories.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.infra.repositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.Domain\\rm-api.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.78, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api\\rm-api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api\\rm-api.csproj",
+        "projectName": "rm-api",
+        "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api\\rm-api.csproj",
+        "packagesPath": "C:\\Users\\esales\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\esales\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\rm-api.DependencyInjection.csproj": {
+                "projectPath": "C:\\Users\\esales\\Desktop\\Almox\\rm-api\\rm-api.DependencyInjection\\rm-api.DependencyInjection.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
